@@ -1,0 +1,11 @@
+{
+  "spec_version": "0.1",
+  "site": { "name": "雲端測試站", "url": "https://win0789087.github.io/zzs-cloud-fixture", "type": "blog", "language": "zh-TW" },
+  "content": {
+    "articles_dir": "posts",
+    "format": "markdown-frontmatter",
+    "filename_pattern": "slug.md",
+    "frontmatter": { "title": "title", "date": "date", "slug": "slug" }
+  },
+  "publish": { "method": "git-push", "branch": "main", "article_url_template": "https://win0789087.github.io/zzs-cloud-fixture/posts/{slug}.md", "verify": "http-200" }
+}
